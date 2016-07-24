@@ -1,0 +1,231 @@
+#wrap {
+	height:100%;
+
+	#header {
+		width: 100%;
+		height: $header_height;
+		background-color:$color_yellow ;
+
+		.navbar-default{
+			border-color: none;
+		}
+
+	.mainNav {
+		.navbar-right {
+			
+			@include padding-top(20px);
+				li{
+					font-size: 1.3em;
+					a{
+						text-transform: uppercase;
+					}
+				}
+			}
+		margin-top:30px;
+		height:100px;
+		// padding-top:20px;
+		padding-bottom:20px;
+		.navbar-brand{
+			height: 0px;
+			line-height: 0px;
+			height:70px;
+			padding:0px;
+			}
+		}
+
+	.row{
+		font-size: 1.3em;
+		h1{
+			@include padding-top(90px);
+		}
+        h1 span{
+        	font-weight: bold;
+
+        }
+		li{
+			list-style-type: none;
+
+		}
+	}
+	 .btn-group{
+	 	border:2px solid black;
+
+
+	}
+	.row{
+		a{
+			font-size: 1em;
+			color: black;
+		}
+	}
+}
+#features{
+	.container{
+		.row{
+				h3{
+				padding:80px 0 40px 0;
+					}
+					p{
+						padding-bottom: 10px;
+					}	
+				}
+			}
+		}
+
+
+// gallary bashlangici
+#gallary{
+	background-color: #fafafa;
+	.row{
+		h3{
+			padding: 80px 0 40px 0;
+		}
+		p{
+			padding-bottom: 30px;
+		}
+		col{
+			margin-right: 5px;
+		}
+	}
+
+}
+// gallarynin baglanishi
+
+// reelin bashlangici
+#reel{
+	margin-top:50px; 
+	background-color: #F8E514;
+	height: 400px;
+	.row{
+		h2{
+			padding-top: 150px;
+			font-weight: 300;
+			font-size: 4em;
+		}
+		i{
+			color: white;
+		}
+	}
+}
+//reelin sonu
+
+// people bashlangici
+#people{
+	background-color:#f5f5f5;
+	.row{
+		h3{
+			padding:40px 0 40px 0;
+		}
+	}
+	.row{
+		h5{
+			font-weight: 900;
+		}
+		p{
+			opacity: 0.5;
+		}
+	}
+}
+//people sonu
+
+
+//about bashlangici
+#about{
+	.row{
+		i{
+			opacity: 0.5;
+			padding: 40px 0 20px 0;
+		}
+		p{
+			padding-bottom: 20px;
+		}
+		img{
+			border-radius: 100%;
+			border:2px solid yellow;
+
+		}
+	}
+}
+//abotun sonu
+// featuredin bashlangici
+#featured{
+	background-color: #F8E514;
+	height:410px;
+	.row{
+		h3{
+			font-weight: 600;
+			padding:70px 0 40px 0;
+		}
+		
+	}
+	.img{
+			padding:60px 0 50px 0;
+			margin-left: 30px;
+		}
+}
+//featuredin sonu
+
+//touchun bashlangici
+#touch{
+	.row{
+		h3{
+			padding: 90px 0 40px 0;
+		}
+		p{
+			padding-bottom: 40px;
+			font-size: 1.3em;
+		}
+	}
+	.colH{
+		height: 100px;
+		border: none;
+	}
+	.colB{
+		border-bottom: 1px solid black;
+	}
+	.colC{
+		background-color: white;
+		font-size: 1.9em;
+		font-weight: 200;
+	}
+	ul{
+		padding-top: 20px;
+	}
+	li{
+		list-style: none;
+		padding-bottom: 60px;
+	}
+	i{
+		opacity: 0.5;
+	}
+	.rowH{
+		background-color:  #F8E514;
+		height: 10px;
+	}
+
+
+}
+//touchun sonu
+
+//footerin bashlangici
+#footer{
+	.row{
+		h4{
+			padding: 30px 0 10px 0;
+		}
+		li{
+			list-style: none;
+		}
+		a{
+			color:black;
+		}
+	}
+	.rowP{
+		padding-top: 75px;
+	}
+
+}
+
+
+//footerin sonu
+}
